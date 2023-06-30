@@ -19,7 +19,7 @@ export const bigCardStyles = style({
   width: "100%",
   height: 300,
   margin: "2rem",
-  backgroundColor: "white",
+  backgroundColor: "#fff",
   color: primaryAccent,
   borderRadius: 50,
   boxShadow: `
@@ -35,13 +35,11 @@ export const bigCardStyles = style({
 });
 
 export const smallCardStyles = style({
-  // margin: "auto",
   fontSize: 18,
   width: "100%",
   height: "100%",
-  // marginTop: "",
-  // marginBottom: "1vh",
   margin: "1rem 0",
+  backgroundColor: "#fff",
   borderRadius: 30,
   boxShadow: `
   0px 0.7px 2.1px rgba(0, 0, 0, 0.018),

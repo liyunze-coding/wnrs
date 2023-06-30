@@ -8,7 +8,7 @@ export const creditStyles = style({
   backgroundColor: "#fff",
   height: "auto",
   textAlign: "left",
-  maxHeight: 13,
+  maxHeight: 23,
   width: 175,
   padding: 4,
   top: 30,
@@ -19,6 +19,7 @@ export const creditStyles = style({
   position: "fixed",
   overflow: "hidden",
   transition: "max-height 1.2s ease-in-out",
+  color: "black",
 
   ":hover": {
     height: "auto",

@@ -1,6 +1,16 @@
 import { style } from "@vanilla-extract/css";
-
 import { primaryAccent, primaryAccentMuted } from "./globals.css";
+
+// darkmode variable
+export const darkStyle = style({
+  backgroundColor: "#141414",
+  color: "#fff",
+});
+
+export const lightStyle = style({
+  backgroundColor: "#fff",
+  color: "#141414",
+});
 
 export const appStyles = style({
   textAlign: "center",
@@ -11,9 +21,29 @@ export const appStyles = style({
   fontWeight: 800,
   flexWrap: "wrap",
   justifyContent: "space-evenly",
-  maxWidth: 1080,
   margin: "0 auto",
-  height: "100%",
+  height: "fit-content",
+  minHeight: "100vh",
+
+  // @ts-ignore
+  "@media (max-width: 47.5em)": {
+    paddingTop: "5rem",
+  },
+});
+
+export const lightDarkToggle = style({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  borderRadius: "1rem",
+  width: "3rem",
+  height: "3rem",
+  fontSize: "1.5rem",
+  cursor: "pointer",
+
+  position: "fixed",
+  top: "1rem",
+  right: "1rem",
 });
 
 export const titleStyles = style({
@@ -67,7 +97,7 @@ export const selectedLevelStyles = style({
   outline: "none",
 });
 
-export const nextCardButtonStlyes = style({
+export const nextCardButtonStyles = style({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -83,6 +113,7 @@ export const nextCardButtonStlyes = style({
   fontWeight: 800,
   fontFamily: '"Biryani", sans-serif',
   border: "none",
+  cursor: "pointer",
 
   ":hover": {
     backgroundColor: primaryAccentMuted,

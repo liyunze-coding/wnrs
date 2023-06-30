@@ -25,11 +25,7 @@ globalStyle("a, a:visited, a:hover", {
 
 // Scrollbar stuff
 globalStyle("::-webkit-scrollbar", {
-  width: 10,
-});
-
-globalStyle("::-webkit-scrollbar-track", {
-  background: "white",
+  width: 5,
 });
 
 globalStyle("::-webkit-scrollbar-thumb", {
