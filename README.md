@@ -2,13 +2,13 @@
 
 ## Fork
 
-Forked by [RyanPython](https://www.github.com/liyunze-coding)
+Forked by [RythonDev](https://www.github.com/liyunze-coding)
 
-Available at https://wnrs-xi.vercel.app/
+Link: https://liyunze-coding.github.io/wnrs/
 
 Changes:
 - Added dark mode toggle
-- More mobile responsive
+- Mobile responsive
 
 ## Original
 
