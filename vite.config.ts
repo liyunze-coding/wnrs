@@ -16,7 +16,7 @@ export default defineConfig({
     },
 
     manifest: {
-      name: "We're not really strangers",
+      name: "We're Not Really Strangers",
       short_name: 'wnrs',
       description: 'Digital adaptation of a popular card game designed to foster meaningful connections through engaging questions and prompts',
       theme_color: '#C13927',
